@@ -1,0 +1,7 @@
+{
+  "name": "iremember-FE",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
