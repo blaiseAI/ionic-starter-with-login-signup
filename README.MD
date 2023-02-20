@@ -143,6 +143,8 @@ Once you have explored the functionality of this starter template and are ready 
 
 Contributions are welcome! To contribute, simply fork this repository, make your changes, and submit a pull request.
 
+## Contributors ✨
+
 | [<img src="https://github.com/blaiseAI.png" width="100px;"/><br /><sub><b>Blaise Sebagabo</b></sub>](https://github.com/blaiseAI)<br />
 
 # License
