@@ -116,8 +116,17 @@ Response:
 
 ![image description](src/assets/screenshots/screenshot-1.png)
 ![image description](src/assets/screenshots/screenshot-2.png)
+
+## Login
+
 ![image description](src/assets/screenshots/screenshot-3.png)
+
+## Signup
+
 ![image description](src/assets/screenshots/screenshot-5.png)
+
+## Authenticated user
+
 ![image description](src/assets/screenshots/screenshot-4.png)
 
 > Note: The credentials used in the example requests for the fake API from reqres.in are pre-defined and hardcoded, and therefore not validated in any way. This is because reqres.in is a mock API used for testing and development purposes, and is not intended for production use. In a real-world application, user credentials would need to be validated on both the client-side and server-side to ensure the security of user data.
