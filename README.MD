@@ -32,6 +32,7 @@ This starter template includes the following features:
 
 - Login and registration using fake API from [https://reqres.in](https://reqres.in/)
 - JWT token authentication
+- Using Capacitor preferences to store JWT securely
 - Guarded routes to protect unauthorized access
 - Onboarding intro slider for first-time users
 - Automatic login with saved JWT token
