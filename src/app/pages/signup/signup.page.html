@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Sign Up</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="signup-container">
+    <form [formGroup]="credentials" (ngSubmit)="onSubmit()">
+      <ion-item>
+        <ion-label position="floating">Email</ion-label>
+        <ion-input type="email" formControlName="email"></ion-input>
+      </ion-item>
+      <div *ngIf="email?.invalid && (email?.dirty || email?.touched)" class="errors">
+        <ion-text color="danger" *ngIf="email?.hasError('required')">
+          Email is required
+        </ion-text>
+        <ion-text color="danger" *ngIf="email?.hasError('email')">
+          Email is invalid
+        </ion-text>
+      </div>
+
+      <ion-item>
+        <ion-label position="floating">Password</ion-label>
+        <ion-input type="{{ showPassword ? 'text' : 'password' }}" formControlName="password"></ion-input>
+        <ion-icon [name]="showPassword ? 'eye-outline' : 'eye-off-outline'" slot="end"
+          (click)="showPassword = !showPassword"></ion-icon>
+
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Confirm Password</ion-label>
+        <ion-input type="{{ showPassword ? 'text' : 'password' }}" formControlName="confirmPassword"></ion-input>
+        <ion-icon [name]="showPassword ? 'eye-outline' : 'eye-off-outline'" slot="end"
+          (click)="showPassword = !showPassword"></ion-icon>
+      </ion-item>
+
+
+
+      <ion-button color="primary" expand="block" type="submit" [disabled]="credentials.invalid">Sign Up</ion-button>
+    </form>
+
+    <ion-button fill="clear" expand="block" routerLink="/login" routerDirection="back">Already have an account? Sign
+      In</ion-button>
+  </div>
+</ion-content>
