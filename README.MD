@@ -24,7 +24,7 @@ npm install
 ng serve
 ```
 
-4. Navigate to http://localhost:4200/ in your browser to see the login and registration pages.
+4. Navigate to http://localhost:8100/ in your browser to see the login and registration pages.
 
 ## Features
 
