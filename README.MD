@@ -30,12 +30,13 @@ ng serve
 
 This starter template includes the following features:
 
-- Login page with email and password inputs and a submit button.
-- Registration page with first name, last name, email, and password inputs and a submit button.
-- Form validation with error messages for invalid inputs.
-- Authentication service to handle login and registration requests.
-- Interceptor to add the authorization header to API requests.
-- Guard to prevent unauthorized access to protected routes.
+- Login and registration using fake API from [https://reqres.in](https://reqres.in/)
+- JWT token authentication
+- Guarded routes to protect unauthorized access
+- Onboarding intro slider for first-time users
+- Automatic login with saved JWT token
+- Email & Password validation for signup form
+- Responsive design with Ionic components
 - Routing to navigate between login, registration, and protected pages.
 
 ## Technologies Used
