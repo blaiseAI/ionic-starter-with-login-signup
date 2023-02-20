@@ -114,7 +114,9 @@ Response:
 
 Once you have explored the functionality of this starter template and are ready to move on to building your own application, there are several next steps you can take:
 
-Replace the fake API from reqres.in with your own custom backend API in the `AuthenticationService`
+1. Add own Authentication API
+   1.1 Replace the fake API from reqres.in with your own custom backend API in the `AuthenticationService`
+2. Add additional ionic pages
 
 ## Screenshot
 
